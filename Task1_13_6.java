@@ -11,12 +11,7 @@ public class Task1_13_6 {
 	  if (sc.hasNextInt()) { 
 		  number=sc.nextInt();   
 	  }
-	  public static int calcC(int number) {
-		  int calc=number % 10;
-		  return calc;
-	  }
-	  public static int calcPosl (int number) {
-		  int calckv=0;
+	  calcC(number);
 	  switch (calcC(number)) {   
 	  case 0:  
 		  calckv = 0;  
@@ -53,7 +48,12 @@ public class Task1_13_6 {
 	  } 
 	     return calckv;
 	  }
-	  System.out.println("Квадрат числа " + number + " равняется " + calcPosl); 
+	  System.out.println("Квадрат числа " + number + " равняется " + calckv); 
 	  }
+      public static int calcC(int number) {
+      int calc=0;
+	  calc=number % 10;
+	  return calc;
+}
 }
 

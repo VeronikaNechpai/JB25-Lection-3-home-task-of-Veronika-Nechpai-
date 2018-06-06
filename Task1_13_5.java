@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Task1_13_5 {
 	public static void main (String[] args) {
 		int n=10;
-		double y=0;
 		Scanner sc=new Scanner(System.in);
 		String max = "", min = "", str = "";
 		for (int i=0;i<n;i++) {
@@ -24,6 +23,6 @@ public class Task1_13_5 {
 		public static void maxLgth(String str) {
 			String max="";
 			 max=str;
-		}
+		} return max;
 	}
 			
